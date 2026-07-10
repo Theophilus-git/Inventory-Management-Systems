@@ -20,5 +20,5 @@ class ProductForm(forms.ModelForm):
             'sku':forms.TextInput(attrs={'placeholder':'Enter SKU', 'class':'form-control'}),
             'price':forms.NumberInput(attrs={'placeholder':'Enter price', 'class':'form-control', 'step':'0.01'}),
             'quantity':forms.NumberInput(attrs={'placeholder':'Enter quantity', 'class':'form-control'}),
-            'supplier':forms.Select(attrs={'class':'form-control'}),
+            'supplier':forms.TextInput(attrs={'placeholder':'Enter supplier name', 'class':'form-control'}),
         }
