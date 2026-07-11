@@ -112,4 +112,3 @@ This is currently a personal learning project. Suggestions and feedback are welc
 ## License
 
 This project is open source and available for personal and educational use.
-# Inventory-Management-Systems
