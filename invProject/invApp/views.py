@@ -26,7 +26,7 @@ def product_list_view(request):
 
 # Update view
 def product_update_view(request,product_id):
-    product = product.object.get(product_id=product_id)
+    product = Product.objects.get(product_id=product_id)
     form = ProductForm()
     if request.method == 'POST':
         form = ProductForm(request.POST,instance=product)
