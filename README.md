@@ -60,7 +60,7 @@ The core of the system is the `Product` model:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/<Theophilus-git>/inventory_Management_Systems.git
+   git clone git@github.com:Theophilus-git/Inventory-Management-Systems.git
    cd inventory_Management_Systems
    ```
 
